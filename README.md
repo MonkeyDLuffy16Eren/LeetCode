@@ -15,12 +15,12 @@ Welcome to my LeetCode repository! This is a personal space where I document my 
 
 | Difficulty | Problems Solved |
 |------------|------------------|
-| Easy       | 39              |
-| Medium     | 35              |
+| Easy       | 40              |
+| Medium     | 37              |
 | Hard       | 1               |
-| **Total**  | 75              |
+| **Total**  | 78              |
 
-> ⚡ Last Updated: `2025-04-10`
+> ⚡ Last Updated: `2025-04-13`
 
 ---
 
