@@ -15,10 +15,10 @@ Welcome to my LeetCode repository! This is a personal space where I document my 
 
 | Difficulty | Problems Solved |
 |------------|------------------|
-| Easy       | 40              |
+| Easy       | 42              |
 | Medium     | 37              |
 | Hard       | 1               |
-| **Total**  | 78              |
+| **Total**  | 80              |
 
 > ⚡ Last Updated: `2025-04-13`
 
