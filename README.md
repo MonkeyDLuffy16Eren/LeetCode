@@ -16,9 +16,9 @@ Welcome to my LeetCode repository! This is a personal space where I document my 
 | Difficulty | Problems Solved |
 |------------|------------------|
 | Easy       | 56              |
-| Medium     | 47              |
+| Medium     | 48              |
 | Hard       | 3               |
-| **Total**  | 106             |
+| **Total**  | 107             |
 
 > ⚡ Last Updated: `2025-05-15`
 
