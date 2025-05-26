@@ -1,0 +1,57 @@
+🔥 [Java] Sliding Window + Brute Force | Leetcode 76: Minimum Window Substring | Clean Explanation ✨
+🧩 Problem Statement:
+76. Minimum Window Substring
+Solved
+Hard
+Topics
+Companies
+Hint
+Given two strings s and t of lengths m and n respectively, return the minimum window substring of s such that every character in t (including duplicates) is included in the window. If there is no such substring, return the empty string "".
+
+The testcases will be generated such that the answer is unique.
+
+ 
+
+Example 1:
+
+Input: s = "ADOBECODEBANC", t = "ABC"
+Output: "BANC"
+Explanation: The minimum window substring "BANC" includes 'A', 'B', and 'C' from string t.
+
+
+✅ Optimized Approach: Sliding Window + Hash Array
+Time Complexity: O(N)
+Space Complexity: O(1) – Since the character set is fixed (ASCII 256)
+
+class Solution {
+    public String minWindow(String s, String t) {
+        int[] hash = new int[256];
+        int n = s.length(), m = t.length();
+        int l = 0, r = 0, minLen = Integer.MAX_VALUE, sIndex = -1, count = 0;
+
+        // Pre-processing: Count frequency of each char in t
+        for (int i = 0; i < m; i++) {
+            hash[t.charAt(i)]++;
+        }
+
+        while (r < n) {
+            if (hash[s.charAt(r)] > 0) count++;
+            hash[s.charAt(r)]--;
+
+            // Shrink the window from left if all t's characters are matched
+            while (count == m) {
+                if (r - l + 1 < minLen) {
+                    minLen = r - l + 1;
+                    sIndex = l;
+                }
+
+                hash[s.charAt(l)]++;
+                if (hash[s.charAt(l)] > 0) count--;
+                l++;
+            }
+            r++;
+        }
+
+        return sIndex == -1 ? "" : s.substring(sIndex, sIndex + minLen);
+    }
+}
