@@ -15,13 +15,13 @@ Welcome to my LeetCode repository! This is a personal space where I document my 
 
 | Difficulty | Problems Solved |
 |------------|------------------|
-| Easy       | 57              |
-| Medium     | 53              |
+| Easy       | 61              |
+| Medium     | 60              |
 | Hard       | 6               |
-| **Total**  | 116             |
+| **Total**  | 130             |
 
-> ⚡ Last Updated: `2025-05-26`
+> ⚡ Last Updated: `2025-06-18`
 
-------
+-----------
 
 
