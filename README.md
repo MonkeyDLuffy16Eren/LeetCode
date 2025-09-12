@@ -1,4 +1,4 @@
-# LeetCode
+# [LeetCode](https://leetcode.com/u/ErenYeager16/)
 # 🧠 LeetCode Practice Journal by Shreyash Upadhyay
 
 Welcome to my LeetCode repository! This is a personal space where I document my journey of solving data structures and algorithms problems across various difficulty levels.
