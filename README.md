@@ -14,13 +14,13 @@ Welcome to my LeetCode repository! This is a personal space where I document my 
 ## 📊 Stats (Updated Weekly)
 
 | Difficulty | Problems Solved |
-|------------|------------------|
-| Easy       | 69              |
-| Medium     | 76              |
-| Hard       | 8               |
-| **Total**  | 153             |
+|------------|-----------------|
+| Easy       | 71              |
+| Medium     | 84              |
+| Hard       | 12              |
+| **Total**  | 167             |
 
-> ⚡ Last Updated: `2025-08-19`
+> ⚡ Last Updated: `2025-09-13`
 
 -----------
 
